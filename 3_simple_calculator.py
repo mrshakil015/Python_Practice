@@ -10,9 +10,9 @@ elif operator == "-":
     print("Subtraction: ", first-second)
 elif operator == "*":
     print("Multiplication: ", first*second)
-elif operator == "+":
+elif operator == "/":
     print("Divide: ", first/second)
-elif operator == "+":
+elif operator == "%":
     print("Modulas: ", first%second)
 else:
     print("Invalid")
