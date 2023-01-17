@@ -23,5 +23,27 @@ print(z)
 x= "Python "
 y= "is "
 z= "interesting"
-
 print(x+y+z)
+
+#Local variable and Global Variable
+
+print("Local variable")
+
+#or
+a ="This is "
+def lcfunction():
+    print("\n"+a+"Local")
+lcfunction()
+
+a ="This is "
+def gb2function():
+    print(a+"what?")
+gb2function()
+print("This is global")
+
+def gbfunction():
+    global a
+    a ="This is "
+    print(a+"Global")
+gbfunction()
+print(a+"Global Keywoard")
