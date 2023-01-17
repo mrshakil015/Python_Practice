@@ -1,4 +1,4 @@
-first = input("Enter your first numbr: ")
+first = input("Enter first numbr: ")
 operator = input("Enter operator (+,-,*,/,%) : ")
 second = input("Enter your second number: ")
 
@@ -15,4 +15,4 @@ elif operator == "/":
 elif operator == "%":
     print("Modulas: ", first%second)
 else:
-    print("Invalid")
+    print("Invalid calculation")
