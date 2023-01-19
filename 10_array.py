@@ -1,4 +1,4 @@
-import array
+import array as arr
 language = ["C","C++","Java","Python"]
 print("Accessing elements: ",language[1])
 print("Accessing elements: ",language[-1])
@@ -23,3 +23,14 @@ print("Popping last element: ",language.pop())
 print("Popping 2nd element: ",language.pop(1))
 language.remove("Java")
 print("After popping and removing array is: ",language)
+
+#Array concatenation
+a=arr.array('i',[1,2,5,6])
+b=arr.array('i',[11,15,18])
+c=a+b
+print("After concatenate: ",c)
+
+#Array Slicing
+print(c[0:3])
+print(c[0:-2])
+print(c[::-1])
