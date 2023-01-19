@@ -1,3 +1,9 @@
+#Pandas has two types of data structures:
+    =>Series- it is one dimensional array, it capable of holding any type of data
+    =>Dtaframe- it is two dimensional array,it structure with columns of potentially different types of data
+
+
+#Function-->
     pd.DataFrame(dictionaryname) - convert to the data frame
     variablename.to_csv('filename.csv') - convert dictionary to CSV file
     variablename.to_csv('filename.csv',index=False) - convert dictionary to CSV file without index
