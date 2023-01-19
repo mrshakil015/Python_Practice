@@ -27,4 +27,4 @@ print("Iterate on the elements of the 2-D array")
 for x in array3:
     for y in x:
         print(y)
-
+        
