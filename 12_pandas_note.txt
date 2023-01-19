@@ -3,3 +3,7 @@
     variablename.to_csv('filename.csv',index=False) - convert dictionary to CSV file without index
     variablename.head(value) - show the first some rows
     variablename.tail(value) - show the last some rows
+    variablename.describe() - describe the numerical columns from the data frame
+    pd.read_csv('filename.csv') - import or read the csv file
+    dataframeName['ColumnName']) - show the specific column from dataframe
+    dataframeName.index =[a,b,c.....] - for changing the index name
