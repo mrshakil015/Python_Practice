@@ -15,4 +15,16 @@ print("Original array:\n",listarray2)
 print("Reshape the array:\n",listarray2.reshape(6,2))
 array3= listarray2.copy()
 print("Copy value one array to another:\n",array3)
+array4 = np.array([5,8,97,7])
+print("Another array: ",array4)
+array4[1] = 44
+print("Another array: ",array4)
+
+print("Iterate on the elements of the 1-D array")
+for y in array4:
+        print(y)
+print("Iterate on the elements of the 2-D array")
+for x in array3:
+    for y in x:
+        print(y)
 

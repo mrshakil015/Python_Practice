@@ -1,3 +1,12 @@
 arrayname.ndim- used to find the array dimension
 arrayname.reshape()- used for change the array dimension.
 arrayname.copy()- used for copy array
+
+#Iterate on the elements of the 1-D array
+    for y in array4:
+            print(y)
+#Iterate on the elements of the 2-D array
+    for x in array3:
+        for y in x:
+            print(y)
+
