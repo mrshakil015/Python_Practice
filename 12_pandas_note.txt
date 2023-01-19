@@ -1,0 +1,5 @@
+    pd.DataFrame(dictionaryname) - convert to the data frame
+    variablename.to_csv('filename.csv') - convert dictionary to CSV file
+    variablename.to_csv('filename.csv',index=False) - convert dictionary to CSV file without index
+    variablename.head(value) - show the first some rows
+    variablename.tail(value) - show the last some rows
