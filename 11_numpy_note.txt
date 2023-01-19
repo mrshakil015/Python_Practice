@@ -1,0 +1,3 @@
+arrayname.ndim- used to find the array dimension
+arrayname.reshape()- used for change the array dimension.
+arrayname.copy()- used for copy array
