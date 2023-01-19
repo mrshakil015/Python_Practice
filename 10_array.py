@@ -9,12 +9,17 @@ language = ["C","C++","Java","Python"]
 language.append("Javascript")
 print(language)
 language.insert(2,"React Native")
-print(language)
+print("Add elements at the specific index: ",language)
 value = [5,8,7,9]
 value.append(113)
-print(value)
+print("Add elements at the end: ",value)
 value.extend([14,17,19])
-print(value)
+print("Add elements at the end: ",value)
 
 
-
+#Removing elements of an array
+print("Array: ",language)
+print("Popping last element: ",language.pop())
+print("Popping 2nd element: ",language.pop(1))
+language.remove("Java")
+print("After popping and removing array is: ",language)
