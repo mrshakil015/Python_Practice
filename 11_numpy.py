@@ -22,7 +22,7 @@ print("Another array: ",array4)
 
 print("Iterate on the elements of the 1-D array")
 for y in array4:
-        print(y)
+    print(y)
 print("Iterate on the elements of the 2-D array")
 for x in array3:
     for y in x:
