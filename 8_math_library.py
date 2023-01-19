@@ -1,5 +1,6 @@
 import math
 print("The value of PI: ",math.pi)
+print("The value of TAU: ",math.tau)
 print("Maximum value: ",max(50,60))
 print("Minimum value: ",min(50,60))
 
@@ -17,4 +18,5 @@ print("The natural logarithm: ", math.log(7))
 print("Power value: ",math.pow(5,2)) #Returns the value of x to the power of y
 print("Convert degree into radians: ",math.radians(70))
 print("Remainder: ",math.remainder(21,4))
+
 
