@@ -3,7 +3,7 @@
     =>Dataframe- it is two dimensional array,it structure with columns of potentially different types of data
 
 
-#Function-->
+#Pandas Function-->
         pd.DataFrame(dictionaryname) - convert to the data frame
         variablename.to_csv('filename.csv') - convert dictionary to CSV file
         variablename.to_csv('filename.csv',index=False) - convert dictionary to CSV file without index
@@ -19,5 +19,11 @@
         dataframeName.copy() - duplicate the dataframe
         dataframeName.loc[[rowName],[ColumnName]]- show the specific row and column value
         dataframeName.loc[[rowName],:]- show the specific row and  all columns or all rows and specific column
-    40--dataframeName.loc[rowName,ColumnName] = setValue - set the value to the specific index
-    41--dataframeName.loc[(dataframeName[ColumnName]==value)] - filter the dataframe
+        dataframeName.loc[rowName,ColumnName] = setValue - set the value to the specific index
+        dataframeName.loc[(dataframeName[ColumnName]==value)] - filter the dataframe
+        dataframeName.iloc[index]- show the index value
+        dataframeName.drop([ColumnName],axis-1)- for drop the column
+        dataframeName.drop([rowName],axis-1)- for drop the row
+        dataframeName.drop([ColumnName], axis=1,inplace=True)- parmanent delete the column
+        dataframeName.drop([RowName], axis=0,inplace=True)- parmanent delete the row
+        dataframeName.reset_index(drop=True)- To reset index number after deleting an index number

@@ -39,3 +39,12 @@ print(newdf1.drop('D', axis=1))
 print("\nShow the specific row and  columns:\n",newdf1.loc[[1,2,3,7],['C','A']])
 print("\nshow the specific row and  all columns:\n",newdf1.loc[[1,25,31,75],:])
 print("\nSpecific Value wise filter the dataframe:\n",newdf1.loc[(newdf1['A']=="Shakil")])
+print(newdf1.iloc[0,1])
+newdf1.drop([1,4,7,9], axis=0,inplace=True)
+print(newdf1.head(5))
+
+print(newdf1.reset_index(drop=True))
+print(newdf1['B'].isnull())
+
+newdf2 = pd.read_csv('dataframe.csv')
+print(newdf2)
