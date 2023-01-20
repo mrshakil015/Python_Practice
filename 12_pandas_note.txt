@@ -36,4 +36,13 @@
         dataframeName.isnull()
         dataframeName.shape
         dataframeName.info()
+        pd.read_excel('filename.xlsx') - read the excel sheet
+        pd.read_excel('filename.xlsx', sheet_name= 'SheetName') - read the specific excel sheet value
+
+
+
+*Create a dataframe which contains only intergers with 3 rows and 2 columns
+    df.describe(), df.mean(), df.corr()
+    df.count(), df.max(), df.min()
+    df.median(),df.std()
 
