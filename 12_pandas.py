@@ -48,3 +48,9 @@ print(newdf1['B'].isnull())
 
 newdf2 = pd.read_csv('dataframe.csv')
 print(newdf2)
+print("Drop the null value:\n",newdf2.dropna())
+print("Drop the duplicates value & keep single one:\n",newdf2.drop_duplicates(subset=['Roll NO']))
+print("Drop the duplicates value & keep first duplicates value:\n",newdf2.drop_duplicates(subset=['Roll NO'],keep='first'))
+print("Drop the duplicates value & keep last duplicates value:\n",newdf2.drop_duplicates(subset=['Roll NO'],keep='last'))
+print("Drop the duplicates all values:\n",newdf2.drop_duplicates(subset=['Roll NO'],keep=False))
+

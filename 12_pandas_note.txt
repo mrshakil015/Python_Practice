@@ -27,3 +27,8 @@
         dataframeName.drop([ColumnName], axis=1,inplace=True)- parmanent delete the column
         dataframeName.drop([RowName], axis=0,inplace=True)- parmanent delete the row
         dataframeName.reset_index(drop=True)- To reset index number after deleting an index number
+        dataframeName.dropna()- drop the null value
+        dataframeName.drop_duplicates(subset=['Roll NO']) - Drop the duplicates value & keep single one
+        dataframeName.drop_duplicates(subset=['Roll NO'],keep='first') - Drop the duplicates value & keep first duplicates value
+        dataframeName.drop_duplicates(subset=['Roll NO'],keep='last') - Drop the duplicates value & keep last duplicates value
+        dataframeName.drop_duplicates(subset=['Roll NO'],keep=False) - Drop the duplicates all values
