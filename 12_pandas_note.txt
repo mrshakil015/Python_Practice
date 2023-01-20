@@ -32,3 +32,8 @@
         dataframeName.drop_duplicates(subset=['Roll NO'],keep='first') - Drop the duplicates value & keep first duplicates value
         dataframeName.drop_duplicates(subset=['Roll NO'],keep='last') - Drop the duplicates value & keep last duplicates value
         dataframeName.drop_duplicates(subset=['Roll NO'],keep=False) - Drop the duplicates all values
+        dataframeName.notnull()
+        dataframeName.isnull()
+        dataframeName.shape
+        dataframeName.info()
+

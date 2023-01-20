@@ -53,4 +53,7 @@ print("Drop the duplicates value & keep single one:\n",newdf2.drop_duplicates(su
 print("Drop the duplicates value & keep first duplicates value:\n",newdf2.drop_duplicates(subset=['Roll NO'],keep='first'))
 print("Drop the duplicates value & keep last duplicates value:\n",newdf2.drop_duplicates(subset=['Roll NO'],keep='last'))
 print("Drop the duplicates all values:\n",newdf2.drop_duplicates(subset=['Roll NO'],keep=False))
-
+print(newdf1.shape)
+print(newdf2)
+print("Data Frame Info:\n",newdf2.info())
+print(newdf2.notnull())
