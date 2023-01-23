@@ -22,8 +22,8 @@
         dataframeName.loc[rowName,ColumnName] = setValue - set the value to the specific index
         dataframeName.loc[(dataframeName[ColumnName]==value)] - filter the dataframe
         dataframeName.iloc[index]- show the index value
-        dataframeName.drop([ColumnName],axis-1)- for drop the column
-        dataframeName.drop([rowName],axis-1)- for drop the row
+        dataframeName.drop([ColumnName],axis=1)- for drop the column
+        dataframeName.drop([rowName],axis=1)- for drop the row
         dataframeName.drop([ColumnName], axis=1,inplace=True)- parmanent delete the column
         dataframeName.drop([RowName], axis=0,inplace=True)- parmanent delete the row
         dataframeName.reset_index(drop=True)- To reset index number after deleting an index number
@@ -38,6 +38,7 @@
         dataframeName.info()
         pd.read_excel('filename.xlsx') - read the excel sheet
         pd.read_excel('filename.xlsx', sheet_name= 'SheetName') - read the specific excel sheet value
+        dataframeName.iloc[index].values - used for convert array
 
 
 
